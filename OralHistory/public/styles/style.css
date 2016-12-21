@@ -602,7 +602,7 @@ body {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background: #e8e1d7;
+  background: #292929;
   height: 1080px;
   width: 100%;
   /*&:before{
@@ -637,14 +637,14 @@ body {
   position: relative; }
 
 #header {
-  width: 8%;
+  width: 10%;
   height: 1080px;
-  background: #292929;
+  background: #222;
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-box-shadow: 3px 0px 19px -4px rgba(20, 20, 20, 0.2);
-  box-shadow: 3px 0px 19px -4px rgba(20, 20, 20, 0.2);
+  -webkit-box-shadow: 3px 0px 19px -4px rgba(20, 20, 20, 0.4);
+  box-shadow: 3px 0px 19px -4px rgba(20, 20, 20, 0.4);
   z-index: 600; }
 
 /*#footer{
@@ -699,7 +699,7 @@ body {
   overflow-y: scroll; }
 
 #map {
-  width: 92%;
+  width: 90%;
   height: 1080px;
   overflow: hidden;
   position: absolute;
@@ -709,29 +709,29 @@ body {
 
 .map-section {
   position: relative;
-  width: 10944px;
+  width: 10629px;
   height: 1080px;
-  background: url("../images/bg-07.jpg");
+  background: url("../images/bg-10.jpg");
   background-size: 100% 100%;
   background-position: 0 0;
   z-index: 10; }
 
 .map-wrap {
-  width: 10994px;
+  width: 10629px;
   height: 1080px; }
 
 .legend {
   position: absolute;
   bottom: 30px;
-  left: 40px;
+  left: 55px;
   z-index: 800; }
   .legend a {
     display: block; }
 
 .logo {
   position: absolute;
-  top: 20px;
-  left: 40px;
+  top: 40px;
+  left: 15px;
   z-index: 800;
   pointer-events: none; }
 
@@ -743,21 +743,13 @@ body {
   text-transform: uppercase;
   cursor: pointer;
   display: inline-block;
-  	/*.info{
-  		background:url('../images/icon-info-f.svg');
-  		background-size:20px 20px;
-  		background-position:45% 50%;
-  		background-repeat:no-repeat;
-  	}
-  
-  	.stop{
-  		background:url('../images/video-close.svg');
-  		background-size:30px 30px;
-  		background-position:45% 50%;
-  		background-repeat:no-repeat;
-  	}
-  
-  	.playcc{
+  /*.info{
+  	background:url('../images/icon-info-f.svg');
+  	background-size:20px 20px;
+  	background-position:45% 50%;
+  	background-repeat:no-repeat;
+  }*/
+  	/*.playcc{
   		background:url('../images/video-cc.svg');
   		background-size:26px 26px;
   		background-position:45% 50%;
@@ -773,8 +765,8 @@ body {
   .utility-button .icon {
     position: relative;
     display: block;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
     border: 2px solid #777;
     text-indent: 100%;
@@ -783,6 +775,11 @@ body {
     background: url("../images/icon-home-f.svg");
     background-size: 20px 20px;
     background-position: 50% 45%;
+    background-repeat: no-repeat; }
+  .utility-button .stop {
+    background: url("../images/video-stop.svg");
+    background-size: 30px 30px;
+    background-position: 45% 50%;
     background-repeat: no-repeat; }
   .utility-button .volup {
     background: url("../images/video-volup.svg");
@@ -920,49 +917,49 @@ body {
 .button-zero {
   position: absolute;
   top: 520px;
-  left: 2640px; }
+  left: 2500px; }
 
 .button-founding {
   position: absolute;
   bottom: 60px;
-  left: 2665px; }
+  left: 2530px; }
 
 .button-founding-2 {
   position: absolute;
   bottom: 60px;
-  left: 2760px; }
+  left: 2630px; }
 
 .button-one {
   position: absolute;
   top: 520px;
-  left: 3320px; }
+  left: 3185px; }
   .button-one span {
     color: #444; }
 
 .button-canals {
   position: absolute;
   bottom: 60px;
-  left: 3355px; }
+  left: 3220px; }
 
 .button-canals-2 {
   position: absolute;
   bottom: 60px;
-  left: 3450px; }
+  left: 3320px; }
 
 .button-two {
   position: absolute;
   top: 520px;
-  left: 4010px; }
+  left: 3880px; }
 
 .button-revolution {
   position: absolute;
   bottom: 60px;
-  left: 4030px; }
+  left: 3910px; }
 
 .button-revolution-2 {
   position: absolute;
   bottom: 60px;
-  left: 4130px; }
+  left: 4005px; }
 
 .button-revolution-3 {
   position: absolute;
@@ -972,49 +969,49 @@ body {
 .button-three {
   position: absolute;
   top: 520px;
-  left: 4695px; }
+  left: 4565px; }
   .button-three span {
     color: #444; }
 
 .button-progressive {
   position: absolute;
   bottom: 60px;
-  left: 4715px;
+  left: 4580px;
   width: 500px; }
 
 .button-four {
   position: absolute;
   top: 520px;
-  left: 5370px; }
+  left: 5240px; }
 
 .button-expansion {
   position: absolute;
   bottom: 60px;
-  left: 5390px;
+  left: 5250px;
   width: 500px; }
 
 .button-five {
   position: absolute;
   top: 520px;
-  left: 6050px; }
+  left: 5920px; }
   .button-five span {
     color: #444; }
 
 .button-ww2 {
   position: absolute;
   bottom: 60px;
-  left: 6075px;
+  left: 5930px;
   width: 500px; }
 
 .button-six {
   position: absolute;
   top: 520px;
-  left: 6710px; }
+  left: 6590px; }
 
 .button-tomorrow {
   position: absolute;
   bottom: 60px;
-  left: 6740px;
+  left: 6640px;
   width: 500px; }
 
 .blocker {
@@ -1047,6 +1044,7 @@ body {
   display: inline-block;
   vertical-align: top;
   margin-top: 90px;
+  margin-left: 180px;
   position: relative;
   z-index: 600;
   width: 1440px;
@@ -1087,10 +1085,11 @@ body {
     display: none; }
 
 .audio-modal {
-  background: #111;
+  background: #232323;
   width: 1080px;
-  height: 350px;
-  margin-top: 350px; }
+  height: 400px;
+  margin-top: 350px;
+  border: 10px solid #e8e1d7; }
 
 .play-video {
   position: absolute;
@@ -1116,10 +1115,11 @@ body {
 
 .td.player.dark {
   border: none !important;
-  background: #111 !important; }
+  background: none !important; }
 
-.td.player.dark div {
-  border: none !important; }
+.td.player .controls div {
+  height: 120px;
+  margin-top: 23px; }
 
 /*.solo-cover, .current-song-info, .follow, .buy-link, .tdicon-td_logo{
 	visibility:none;
@@ -1144,26 +1144,30 @@ body {
   top: 50%;
   left: 50%;
   z-index: 1000;
-  width: 900px;
+  width: 1050px;
   height: 200px;
-  margin-left: -450px;
-  margin-top: -115px; }
+  margin-left: -525px;
+  margin-top: -150px; }
   .modal-player .header, .modal-player .social, .modal-player .playlist, .modal-player .tdicon-td_logo-link {
     display: none; }
   .modal-player .td.player.dark .info {
-    margin-bottom: 50px;
+    padding-bottom: 30px;
     font-size: 24px; }
   .modal-player .td.player.dark .info a {
-    font-size: 28px;
-    font-weight: bold; }
-  .modal-player .artist-name {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  .modal-player .artist-name, .modal-player .tdicon-repeat, .modal-player .tdicon-volume-up {
     display: none; }
   .modal-player .td.player.shrink .tdicon-pause-circle-outline, .modal-player .td.player.shrink .tdicon-play-circle-outline {
-    font-size: 100px !important; }
+    font-size: 110px !important; }
   .modal-player .scrubber-box {
     padding: 30px; }
   .modal-player .td.player.shrink .start-time, .modal-player .td.player.shrink .stop-time {
     font-size: 21px; }
+  .modal-player .td.player .player-next, .modal-player .td.player .player-prev {
+    font-size: 40px; }
 
 /*.player{
 	position:absolute;
